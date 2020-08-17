@@ -1,5 +1,5 @@
 
-# Portfolio
+# Ybrayym Abamov's Portfolio
 
 Personal portfolio that's cross-platform, optimized for all devices, and it demonstrates my various projects. Check it out!
 
