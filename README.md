@@ -1,7 +1,7 @@
 
 # Portfolio
 
-My portfolio is cross-platform, optimized for all devices, and it demonstrates my various projects. Check it out!
+Personal portfolio that's cross-platform, optimized for all devices, and it demonstrates my various projects. Check it out!
 
 "WEBSITE LINK GOES HERE"
 
