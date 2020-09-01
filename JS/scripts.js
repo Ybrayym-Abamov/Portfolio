@@ -67,7 +67,7 @@ function showContainer(n) {
   carouselSwitch[carouselCounter - 1].classList.add('active-carousel-switch');
 
   carouselCounter++;
-  setTimeout(showContainer, 20000);
+  setTimeout(showContainer, 60000);
 
 }
 
