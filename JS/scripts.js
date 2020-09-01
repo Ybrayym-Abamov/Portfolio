@@ -77,4 +77,4 @@ carouselSwitch.forEach((button, i) => {
   });
 });
 
-console.log('If you can see this you\'re awesome!');
+console.log('Hey there! Watcha doing?');

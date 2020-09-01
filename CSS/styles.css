@@ -51,7 +51,7 @@ p {
 
 /* Main Nav CSS */
 .main-nav {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, .8);
   transition: color .3s;
 }
 
@@ -99,7 +99,6 @@ p {
   cursor: pointer;
 }
 
-
 #resume-download-button {
   display: inline-block;
   margin-left: 10px;
@@ -141,7 +140,7 @@ p {
 .project-summary-container,
 .technologies-used-container,
 .main-footer {
-  padding: 3em 2em;
+  padding: 3em 1em;
   text-align: center;
 }
 
@@ -270,6 +269,14 @@ p {
   grid-area: 7 / 3 / 8 / 5;
 }
 
+.technological-skills p:nth-child(14) {
+  grid-area: 8 / 1 / 8 / 4;
+}
+
+.technological-skills p:nth-child(15) {
+  grid-area: 8 / 4 / 8 / 7;
+}
+
 /* Projects CSS */
 .projects-content {
   text-align: left;
@@ -286,7 +293,7 @@ p {
 .projects-item {
   border-radius: 50%; /* ------ COME BACK TO THIS ---- */
   margin: 1rem auto;
-  
+
 }
 
 .project-image {
@@ -295,9 +302,7 @@ p {
 
 .projects img {
   display: block;
-  /* height: auto; */
-  min-height: 200px;
-  max-height: 200px;
+  height: auto;
   width: 100%;
 }
 
@@ -436,7 +441,7 @@ p {
 
 /* Main Footer */
 .main-footer {
-  background-color: rgb(2, 35, 56);
+  background-color: #05223a;
   color: #fff;
 }
 
@@ -445,7 +450,7 @@ p {
 }
 
 .footer-about-me-content {
-  margin-bottom: .2em;
+  margin-bottom: 1em;
 }
 
 .footer-about-me-content i {
@@ -824,6 +829,14 @@ a:visited {
     grid-area: 4 / 1 / 5 / 3;
   }
 
+  .technological-skills p:nth-child(14) {
+    grid-area: 8 / 1 / 8 / 3;
+  }
+  
+  .technological-skills p:nth-child(15) {
+    grid-area: 8 / 3 / 8 / 7;
+  }
+
   /* Personal Projects CSS */
   .projects-container {
     display: grid;
@@ -911,6 +924,24 @@ a:visited {
     flex-direction: column;
     align-items: flex-start;
     margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 595px) {
+  .main-nav i {
+    padding-top: 13px;
+  }
+
+  .main-nav ul {
+    margin-top: 1.5em;
+  }
+
+  .technological-skills p:nth-child(14) {
+    grid-area: 8 / 1 / 8 / 3;
+  }
+  
+  .technological-skills p:nth-child(15) {
+    grid-area: 8 / 3 / 8 / 7;
   }
 }
 
@@ -1151,6 +1182,14 @@ a:visited {
   }
   .technological-skills-container p:nth-child(13) {
     grid-area: 5 / 5 / 6 / 7;
+  }
+
+  .technological-skills p:nth-child(14) {
+    grid-area: 8 / 1 / 8 / 4;
+  }
+  
+  .technological-skills p:nth-child(15) {
+    grid-area: 8 / 4 / 8 / 7;
   }
 
   /* projects CSS */
