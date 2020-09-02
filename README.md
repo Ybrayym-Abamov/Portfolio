@@ -10,8 +10,6 @@ Personal portfolio that's cross-platform, optimized for all devices, and it demo
 - CSS
 - JavaScript
 
-## Author
-Ybrayym Abamov 2020
 
 ## Acknowledgments
 - [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) - Scroll on link click animation
@@ -27,3 +25,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [WOW.js](https://mynameismatthieu.com/WOW/) - Scrolling animation
 * [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) - Scroll on link click animation
 * [Font Awesome](https://fontawesome.com/?from=io/) - Icons used
+
+## Author
+Ybrayym Abamov 2020
