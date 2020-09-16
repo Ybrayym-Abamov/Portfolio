@@ -97,6 +97,7 @@ p {
 
 .main-nav i {
   cursor: pointer;
+  outline: none;
 }
 
 #resume-download-button {
@@ -750,6 +751,7 @@ a:visited {
 
   .main-nav i {
     display: none;
+    outline: none;
   }
 
   .main-nav img {
@@ -931,6 +933,7 @@ a:visited {
 @media only screen and (max-width: 595px) {
   .main-nav i {
     padding-top: 13px;
+    outline: none;
   }
 
   .main-nav ul {
