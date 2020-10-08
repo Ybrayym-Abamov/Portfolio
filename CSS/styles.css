@@ -150,7 +150,13 @@ p {
   background-color: var(--secondary-color);
 }
 
-.summary img {
+/* .summary img {
+  height: auto;
+  margin-top: 2em;
+  width: 100%;
+} */
+
+.summary video {
   height: auto;
   margin-top: 2em;
   width: 100%;
@@ -699,8 +705,8 @@ a:visited {
 
 /* Other CSS */
 .main-button {
-  background-color: var(--main-color);
-  border: 1px solid var(--main-color);
+  background-color: rgb(34, 83, 73);
+  border: 1px solid rgb(34, 83, 73);
   border-radius: 3px;
   color: #fff;
   padding: .6rem;
@@ -1059,7 +1065,7 @@ a:visited {
   }
 
   .summary-more-info {
-    border: 5px solid var(--main-color);
+    border: 5px solid rgb(11, 32, 27);
     border-radius: 10px;
     height: auto;
     max-width: 90%;
