@@ -68,7 +68,7 @@ p {
   background-color: rgba(21,31,33,0.5);
   border-bottom: 1px solid #dedede;
   display: flex;
-  font-weight: 100; /* -------- COME BACK TO THIS ---- */
+  font-weight: 100;
   justify-content: space-between;
   padding: 15px 25px;
   position: fixed;
@@ -107,7 +107,7 @@ p {
 
 /* Header CSS */
 .main-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/bluenight.png') center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('../images/ff.png') center center no-repeat;
   background-size: cover;
   height: 100vh;
   min-height: 300px;
@@ -1021,7 +1021,7 @@ a:visited {
   }
 
   .main-header-side-content {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     display: block;
     height: 100%;
