@@ -300,13 +300,13 @@ p {
 .projects-item {
   border-radius: 50%; /* ------ COME BACK TO THIS ---- */
   margin: 1rem auto;
-
 }
 
 .project-image {
   position: relative;
   box-shadow: 2px 2px 3px 2px rgb(133, 131, 131);
   border-radius: 5%;
+  transition: transform 0.5s;
 }
 
 .projects img {
@@ -331,6 +331,7 @@ p {
 .project-image-overlay:hover {
   opacity: 1;
 }
+
 
 .project-description {
   border-bottom: 1px solid rgba(0,0,0,.1);
