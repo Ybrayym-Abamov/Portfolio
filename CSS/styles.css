@@ -150,11 +150,11 @@ p {
   background-color: var(--secondary-color);
 }
 
-/* .summary img {
+.summary img {
   height: auto;
   margin-top: 2em;
   width: 100%;
-} */
+}
 
 .summary video {
   height: auto;
