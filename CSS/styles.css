@@ -107,7 +107,7 @@ p {
 
 /* Header CSS */
 .main-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('../images/ff.png') center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('../images/fff.png') center center no-repeat;
   background-size: cover;
   height: 100vh;
   min-height: 300px;
